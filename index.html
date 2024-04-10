@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Autism Support</title>
+    <link rel="stylesheet" media="screen and (min-width: 960px)" href="./style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 960px)" href="./style_mobile.css" />
+    <meta charset="utf-8" />
+    <script>
+      // Functions
+      			function $$(str) {
+      			return document.getElementById(str)
+      			}
+      			function To(url) {
+      			window.location = url
+      			}
+    </script>
+  </head>
+  <body>
+    <header class="titlebar">
+      <h3>Autism Support</h3>
+	    <div class="tools">
+        <div id="home" onclick="To('./index.html')">首页</div>
+        <div id="question" onclick="To('http://154.201.77.120:10008/chat/')">问答</div>
+        <div id="repo" onclick="To('https://github.com/AutismSupport/AutismSupportHub/')">仓库</div>
+	  </div>
+    </header>
+    <section class="info">
+      <div class="profile">
+        <div class="profile bigtitle">
+          <p style="height: 54px; max-width:85%;">&nbsp;</p>
+          <h2 style="color: #fff">The</h2>
+          <h2 style="color: #000;">
+            Autism Support
+          </h2>
+          <h2 style="color: #fff">Project</h2>
+        </div>
+        <p style="max-height: 30px; min-height: 30px;" />
+        <div id="info_row">
+          <div class="info" id="info_left">
+            <div style="display: flex; flex-direction: row; width: 95%;">
+              <p style="max-width: 60%; min-width: 240px;">
+                孤独症，也称为自闭症（英语：autism），
+                是一种由脑部发育障碍所导致的疾病，其特征是情绪，
+                言语和非言语的表达困难及社交互动障碍，
+                会对限制性行为与重复性动作有明显的兴趣。
+                家长一般会在孤独症孩童两到三岁时注意到其状况。
+                其症状会渐渐加重，不过有些有孤独症的孩童在孤独症恶化之前，
+                在一段时间内有着正常或接近正常的早期发展阶段（见儿童发展阶段），
+                之后会出现一个或多个自闭症的特发特征，比如语言倒退等。
+              </p>
+              <p style="min-width:36px; max-width:36px" />
+              <div id="sym">
+                <h3>自闭症的症状</h3>
+                <div>
+                  <div class="sym">
+                    - 受损的人际关系
+                  </div>
+                  <div class="sym">
+                    - 言语和非言语交际
+                  </div>
+                  <div class="sym">
+                    - 局限和强迫的行为
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p style="min-width: 30px; max-width: 30px" />
+          <div class="info" id="info_right">
+            <h3>我们所做的</h3>
+            我们为自闭症患者及其家属提供相关信息的咨询服务，
+            这有助于解决人工咨询费用过高的问题。
+            根据我们的测试，LLM（大语言模型）在自闭症咨询上的表现较好，
+            提供的信息也较为准确，故使用ChatGPT或Gemini等来提供非人工咨询服务。
+            <div class="link_button" onclick="To('http://154.201.77.120:10008/chat/')">前往提问 →</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p style="height: 64px;" />
+    <footer>
+      <p>&nbsp;</p>
+      <p>&copy; 2024 AutismSupport</p>
+      <p>Webpage by Codecrafter</p>
+      <p>&nbsp;</p>
+    </footer>
+  </body>
+</html>
