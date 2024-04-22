@@ -134,7 +134,7 @@ body {
     flex-direction: row;
 }
 
-.tools #home {
+.tools .button {
     display: inline-block;
     background-color: #00000000;
     color: #fff;
@@ -147,53 +147,11 @@ body {
     right: 20%;*/
 }
 
-.tools #home:hover {
+.tools .button:hover {
     animation: ScaleAnimation 0.3s forwards ease-in-out;
 }
 
-.tools #home:not(:hover) {
-    animation: BackScaleAnimation 0.3s forwards ease-in-out;
-}
-
-.tools #question {
-    display: inline-block;
-    background-color: #00000000;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 18px;
-    /*position: fixed;
-    top: 1%;
-    animation: BeginAnimationForTool 0.5s forwards ease-in-out;
-    right: 14%;*/
-}
-
-.tools #question:hover {
-    animation: ScaleAnimation 0.3s forwards ease-in-out;
-}
-
-.tools #question:not(:hover) {
-    animation: BackScaleAnimation 0.3s forwards ease-in-out;
-}
-
-.tools #repo {
-    display: inline-block;
-    background-color: #00000000;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 18px;
-    /*position: fixed;
-    top: 1%;
-    animation: BeginAnimationForTool 0.5s forwards ease-in-out;
-    right: 8%;*/
-}
-
-.tools #repo:hover {
-    animation: ScaleAnimation 0.3s forwards ease-in-out;
-}
-
-.tools #repo:not(:hover) {
+.tools .button:not(:hover) {
     animation: BackScaleAnimation 0.3s forwards ease-in-out;
 }
 
